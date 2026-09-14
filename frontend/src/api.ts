@@ -1,15 +1,13 @@
 import type { Cache2026, Cache2022, FixtureData } from './types';
 
-const BASE = '/api';
-
 async function get<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`);
+  const res = await fetch(path);
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json() as Promise<T>;
 }
 
 export const api = {
-  get2026: () => get<Cache2026>('/predictions/2026'),
-  get2022: () => get<Cache2022>('/predictions/2022'),
-  getFixtures: () => get<FixtureData>('/fixtures'),
+  get2026: () => get<Cache2026>('/data/predictions_2026.json'),
+  get2022: () => get<Cache2022>('/data/predictions_2022.json'),
+  getFixtures: () => get<FixtureData>('/data/fixtures.json'),
 };
