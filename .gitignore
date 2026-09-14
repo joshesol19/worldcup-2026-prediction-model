@@ -1,0 +1,27 @@
+# --- Raw & intermediate data (not needed to run the app; too large for GitHub) ---
+data/raw/
+data/processed/
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Backend (.NET build artifacts) ---
+backend/**/bin/
+backend/**/obj/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Notebooks not part of the model-selection story ---
+notebooks/01_FIFA_Rankings_Data_Acquisition_Preparation.ipynb
+notebooks/funAnalytics.ipynb
+notebooks/test.ipynb
+notebooks/catboost_info/
+
+# --- OS ---
+.DS_Store
+
+# --- Claude Code local config ---
+.claude/

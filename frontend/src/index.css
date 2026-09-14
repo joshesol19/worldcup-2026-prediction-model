@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.2s, color 0.2s;
+}
+
+#root { min-height: 100vh; }
+
+/* ── Dark mode ─────────────────────────────────────────────────────────────── */
+
+.dark body { background: #0f172a; color: #f1f5f9; }
+
+/* Backgrounds */
+.dark .bg-white        { background-color: #1e293b !important; }
+.dark .bg-slate-50     { background-color: #0f172a !important; }
+.dark .bg-slate-100    { background-color: #253047 !important; }
+.dark .bg-slate-200    { background-color: #334155 !important; }
+.dark .bg-slate-700    { background-color: #1e293b !important; }
+
+/* Borders */
+.dark .border-slate-50  { border-color: #1e293b !important; }
+.dark .border-slate-100 { border-color: #253047 !important; }
+.dark .border-slate-200 { border-color: #334155 !important; }
+.dark .border-slate-300 { border-color: #475569 !important; }
+
+/* Text — corrected scale (was backwards at the low end) */
+.dark .text-slate-900 { color: #f1f5f9 !important; }
+.dark .text-slate-800 { color: #e2e8f0 !important; }
+.dark .text-slate-700 { color: #cbd5e1 !important; }
+.dark .text-slate-600 { color: #94a3b8 !important; }
+.dark .text-slate-500 { color: #94a3b8 !important; }
+.dark .text-slate-400 { color: #64748b !important; }
+.dark .text-slate-300 { color: #94a3b8 !important; }
+
+/* Dividers */
+.dark .divide-slate-100 > * + * { border-color: #253047 !important; }
+.dark .divide-slate-200 > * + * { border-color: #334155 !important; }
+
+/* Header + footer */
+.dark header { background-color: #1e293b !important; border-color: #334155 !important; }
+.dark footer  { background-color: #1e293b !important; border-color: #334155 !important; }
+
+/* Shadows */
+.dark .shadow-sm { box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important; }
+
+/* Hover states */
+.dark .hover\:bg-slate-50:hover  { background-color: #253047 !important; }
+.dark .hover\:bg-slate-100:hover { background-color: #334155 !important; }
+
+/* Green accents */
+.dark .bg-green-50    { background-color: #052e16 !important; }
+.dark .bg-green-100   { background-color: #14532d !important; }
+.dark .text-green-700 { color: #4ade80 !important; }
+.dark .text-green-600 { color: #4ade80 !important; }
+.dark .border-green-200 { border-color: #166534 !important; }
+.dark .border-green-500 { border-color: #22c55e !important; }
+.dark .ring-2.ring-green-200 { --tw-ring-color: rgba(34,197,94,0.25) !important; }
+.dark .hover\:text-green-700:hover { color: #4ade80 !important; }
+
+/* Red / amber status badges */
+.dark .bg-red-50,
+.dark .bg-red-100   { background-color: #3b0707 !important; }
+.dark .text-red-700  { color: #f87171 !important; }
+.dark .text-red-500  { color: #f87171 !important; }
+.dark .border-red-200 { border-color: #7f1d1d !important; }
+
+.dark .bg-amber-100  { background-color: #3b1e03 !important; }
+.dark .text-amber-700 { color: #fbbf24 !important; }
+.dark .text-amber-600 { color: #fbbf24 !important; }
+
+/* Orange (used in ranking top-3 badges) */
+.dark .bg-orange-100  { background-color: #3b1a03 !important; }
+.dark .text-orange-700 { color: #fb923c !important; }
