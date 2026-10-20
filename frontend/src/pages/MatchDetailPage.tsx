@@ -47,14 +47,15 @@ function StatRow({ label, v1, v2, lowerBetter }: {
   );
 }
 
-function ShapBar({ feat, team1Name, team2Name, neutralFlag }: {
+function ShapBar({ feat, maxMagnitude, team1Name, team2Name, neutralFlag }: {
   feat: ShapFeature;
+  maxMagnitude: number;
   team1Name: string;
   team2Name: string;
   neutralFlag?: number;
 }) {
   const { feature, rawFeature, direction, magnitude } = feat;
-  const pct = Math.min(magnitude * 100, 100);
+  const pct = maxMagnitude > 0 ? (magnitude / maxMagnitude) * 100 : 0;
   const isT1 = direction === 'favors_team1';
   const favoringTeam = isT1 ? team1Name : team2Name;
 
@@ -233,6 +234,7 @@ export function MatchDetailPage({ match, onBack }: Props) {
               <ShapBar
                 key={i}
                 feat={f}
+                maxMagnitude={Math.max(...match.shapFeatures!.map(sf => sf.magnitude))}
                 team1Name={t1}
                 team2Name={t2}
                 neutralFlag={'neutral' in match ? (match as any).neutral : undefined}

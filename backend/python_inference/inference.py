@@ -361,11 +361,13 @@ def build_inference_row(team1_snap: dict, team2_snap: dict,
 # ---------------------------------------------------------------------------
 # Feature importance from LR explanatory model
 # ---------------------------------------------------------------------------
-def compute_lr_feature_importance(expl_model, X_df: pd.DataFrame, predicted_class_idx: int,
-                                   feat_cols: list) -> list:
+def compute_lr_feature_importance(expl_model, X_df: pd.DataFrame, feat_cols: list) -> list:
     """
-    Returns top 5 features by contribution magnitude for the predicted class,
-    using LR coefficient × scaled feature value.
+    Returns top 5 factors by contribution to the home-win vs away-win log-odds,
+    using LR (coef_H - coef_A) × scaled feature value. Positive = favors home.
+
+    Raw features sharing a display label (home_elo_pre / away_elo_pre / elo_diff
+    → "Elo rating") are summed into one factor so a label never appears twice.
     """
     try:
         imputer = expl_model.named_steps["imputer"]
@@ -375,27 +377,35 @@ def compute_lr_feature_importance(expl_model, X_df: pd.DataFrame, predicted_clas
         X_imp = imputer.transform(X_df)
         X_scaled = scaler.transform(X_imp)
 
-        # coef_ shape: (n_classes, n_features)
-        # For binary (2 classes) sklearn uses shape (1, n_features), skip that edge case
+        # coef_ shape: (n_classes, n_features); classes ['A', 'D', 'H']
         coef = lr.coef_
         if coef.shape[0] == 1:
-            class_coef = coef[0]
+            home_vs_away_coef = coef[0]
         else:
-            # Multi-class: use the predicted class's coefficients
-            class_coef = coef[predicted_class_idx]
+            home_vs_away_coef = coef[2] - coef[0]
 
-        contributions = X_scaled[0] * class_coef
-        top_indices = np.argsort(np.abs(contributions))[::-1][:5]
+        contributions = X_scaled[0] * home_vs_away_coef
+
+        # Aggregate signed contributions by display label
+        by_label: dict = {}
+        for feat, contrib in zip(feat_cols, contributions):
+            label = FEATURE_LABELS.get(feat, feat)
+            entry = by_label.setdefault(label, {"total": 0.0, "feats": []})
+            entry["total"] += float(contrib)
+            entry["feats"].append((feat, float(contrib)))
+
+        top = sorted(by_label.items(), key=lambda kv: abs(kv[1]["total"]), reverse=True)[:5]
 
         results = []
-        for i in top_indices:
-            feat = feat_cols[i]
-            contrib = float(contributions[i])
+        for label, entry in top:
+            total = entry["total"]
+            # rawFeature = the largest single contributor within the group
+            raw = max(entry["feats"], key=lambda fc: abs(fc[1]))[0]
             results.append({
-                "feature": FEATURE_LABELS.get(feat, feat),
-                "rawFeature": feat,
-                "direction": "favors_team1" if contrib > 0 else "favors_team2",
-                "magnitude": round(abs(contrib), 4),
+                "feature": label,
+                "rawFeature": raw,
+                "direction": "favors_team1" if total > 0 else "favors_team2",
+                "magnitude": round(abs(total), 4),
             })
         return results
     except Exception as e:
@@ -704,9 +714,7 @@ def simulate_bracket_with_model(
             predicted = get_outcome_label(p_team1, p_draw, p_team2)
             max_p = max(p_team1, p_draw, p_team2)
 
-            class_idx_map = {"team1": 2, "draw": 1, "team2": 0}
-            predicted_class_idx = class_idx_map[predicted]
-            raw_shap = compute_lr_feature_importance(expl_model, X, predicted_class_idx, feat_cols)
+            raw_shap = compute_lr_feature_importance(expl_model, X, feat_cols)
             if swapped:
                 flip = {"favors_team1": "favors_team2", "favors_team2": "favors_team1"}
                 shap_feats = [{**sf, "direction": flip.get(sf["direction"], sf["direction"])} for sf in raw_shap]
@@ -872,11 +880,9 @@ def generate_2026_predictions(model, expl_model, le, feat_cols,
         predicted = get_outcome_label(p_team1, p_draw, p_team2)
         max_p = max(p_team1, p_draw, p_team2)
 
-        class_idx_map = {"team1": 2, "draw": 1, "team2": 0}
-        predicted_class_idx = class_idx_map[predicted]
         # Compute importance from the home/away-ordered feature vector; flip
         # favors_team1/team2 labels if we swapped to reflect output ordering.
-        shap_feats_raw = compute_lr_feature_importance(expl_model, X, predicted_class_idx, feat_cols)
+        shap_feats_raw = compute_lr_feature_importance(expl_model, X, feat_cols)
         if swapped:
             flip = {"favors_team1": "favors_team2", "favors_team2": "favors_team1"}
             shap_feats = [{**f, "direction": flip.get(f["direction"], f["direction"])}
@@ -973,9 +979,7 @@ def generate_2022_predictions(df: pd.DataFrame, model, expl_model, le, feat_cols
         stage = str(row["match_stage"])
 
         X_single = pd.DataFrame([X.iloc[idx]])
-        class_idx_map = {"team1": 2, "draw": 1, "team2": 0}
-        predicted_class_idx = class_idx_map[predicted]
-        shap_feats = compute_lr_feature_importance(expl_model, X_single, predicted_class_idx, feat_cols)
+        shap_feats = compute_lr_feature_importance(expl_model, X_single, feat_cols)
 
         def _m(v):
             if v is None or (isinstance(v, float) and np.isnan(v)):

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T17:27:23.230445",
+  "generatedAt": "2026-10-20T15:09:20.751097",
   "matchCount": 104,
   "modelAccuracy": 0.578,
   "matches": [
@@ -30,34 +30,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
+          "feature": "Elo rating",
+          "rawFeature": "elo_diff",
+          "direction": "favors_team1",
+          "magnitude": 1.0053
+        },
+        {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.3675
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3208
+          "magnitude": 0.7984
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.318
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.3062
+          "magnitude": 0.6919
         },
         {
           "feature": "Weighted recent form",
           "rawFeature": "home_last10_pts_weighted",
           "direction": "favors_team1",
-          "magnitude": 0.1961
+          "magnitude": 0.285
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.2777
         }
       ],
       "teamStats": {
@@ -104,34 +104,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.9355
+        },
+        {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.33
+          "magnitude": 0.5851
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.2681
+          "magnitude": 0.584
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.2581
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.1612
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.4371
         }
       ],
       "teamStats": {
@@ -181,31 +181,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.318
+          "magnitude": 0.6985
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.1389
+          "magnitude": 0.493
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.1366
+          "magnitude": 0.3988
         },
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.2793
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1295
+          "magnitude": 0.2381
         }
       ],
       "teamStats": {
@@ -252,34 +252,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3675
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3348
-        },
-        {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3208
+          "magnitude": 0.3052
         },
         {
           "feature": "Weighted recent form",
           "rawFeature": "home_last10_pts_weighted",
           "direction": "favors_team1",
-          "magnitude": 0.1961
+          "magnitude": 0.2631
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team1",
+          "magnitude": 0.2257
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.1904
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1758
+          "magnitude": 0.0951
         }
       ],
       "teamStats": {
@@ -328,32 +328,32 @@
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.5052
+          "direction": "favors_team2",
+          "magnitude": 1.1951
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2519
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.2338
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.2099
+          "magnitude": 0.8252
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
+          "direction": "favors_team1",
+          "magnitude": 0.4225
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.4151
+        },
+        {
+          "feature": "Weighted recent form",
+          "rawFeature": "home_last10_pts_weighted",
           "direction": "favors_team2",
-          "magnitude": 0.1919
+          "magnitude": 0.285
         }
       ],
       "teamStats": {
@@ -400,34 +400,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3475
-        },
-        {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.2539
+          "direction": "favors_team2",
+          "magnitude": 0.7321
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.6366
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
-          "direction": "favors_team1",
-          "magnitude": 0.2305
+          "direction": "favors_team2",
+          "magnitude": 0.493
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.1898
+          "direction": "favors_team2",
+          "magnitude": 0.3336
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.1805
+          "magnitude": 0.3062
         }
       ],
       "teamStats": {
@@ -477,31 +477,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.2719
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2306
+          "magnitude": 0.8626
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.1999
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.1853
+          "magnitude": 0.8524
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
           "direction": "favors_team2",
-          "magnitude": 0.1661
+          "magnitude": 0.3603
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team1",
+          "magnitude": 0.2257
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.2247
         }
       ],
       "teamStats": {
@@ -550,32 +550,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5365
+          "direction": "favors_team2",
+          "magnitude": 1.605
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3557
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.2968
+          "direction": "favors_team2",
+          "magnitude": 0.8407
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.261
+          "direction": "favors_team2",
+          "magnitude": 0.7663
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.2353
+          "magnitude": 0.5585
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -625,31 +625,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.3033
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2517
-        },
-        {
-          "feature": "Recent form (last 10)",
-          "rawFeature": "home_last10_pts",
-          "direction": "favors_team1",
-          "magnitude": 0.2249
+          "magnitude": 0.959
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.2191
+          "magnitude": 0.898
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.5522
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.4343
         }
       ],
       "teamStats": {
@@ -699,31 +699,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4141
+          "magnitude": 0.8275
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.2306
+          "magnitude": 0.6805
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.2046
+          "magnitude": 0.3155
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team1",
+          "magnitude": 0.2257
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.1999
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.1413
+          "magnitude": 0.1867
         }
       ],
       "teamStats": {
@@ -773,31 +773,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7574
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.286
+          "magnitude": 1.1737
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.2811
+          "magnitude": 0.6006
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.2306
+          "magnitude": 0.3977
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team2",
-          "magnitude": 0.1999
+          "magnitude": 0.292
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team2",
+          "magnitude": 0.2583
         }
       ],
       "teamStats": {
@@ -847,31 +847,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4141
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.6973
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.1584
+          "magnitude": 0.6641
         },
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.1502
+          "magnitude": 0.493
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.1413
+          "feature": "Recent goal difference",
+          "rawFeature": "home_last10_gd",
+          "direction": "favors_team1",
+          "magnitude": 0.4144
+        },
+        {
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
+          "direction": "favors_team1",
+          "magnitude": 0.2605
         }
       ],
       "teamStats": {
@@ -918,34 +918,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.3196
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5903
-        },
-        {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4254
+          "magnitude": 1.1057
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.8029
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.516
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.3941
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3718
+          "magnitude": 0.4741
         }
       ],
       "teamStats": {
@@ -994,32 +994,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.273
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team1",
-          "magnitude": 0.2305
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.1988
+          "magnitude": 0.8711
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.1854
+          "direction": "favors_team2",
+          "magnitude": 0.5371
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.1609
+          "magnitude": 0.4224
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.2055
         }
       ],
       "teamStats": {
@@ -1068,32 +1068,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.9347
+          "direction": "favors_team2",
+          "magnitude": 2.0644
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3845
-        },
-        {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.2829
+          "magnitude": 0.8285
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.2565
+          "direction": "favors_team2",
+          "magnitude": 0.6899
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 0.2421
+          "magnitude": 0.5857
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.5482
         }
       ],
       "teamStats": {
@@ -1143,31 +1143,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.5903
+          "magnitude": 2.8635
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.4269
+          "magnitude": 1.3598
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 1.2407
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.8733
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.3941
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3718
-        },
-        {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3283
+          "magnitude": 0.5426
         }
       ],
       "teamStats": {
@@ -1216,32 +1216,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.798
+          "direction": "favors_team2",
+          "magnitude": 6.5584
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.975
+          "direction": "favors_team1",
+          "magnitude": 2.5237
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6945
+          "direction": "favors_team1",
+          "magnitude": 1.4816
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.5237
+          "direction": "favors_team2",
+          "magnitude": 0.8179
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
+          "feature": "Elo rating",
+          "rawFeature": "elo_diff",
           "direction": "favors_team2",
-          "magnitude": 0.4318
+          "magnitude": 0.7318
         }
       ],
       "teamStats": {
@@ -1291,31 +1291,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.4114
+          "magnitude": 1.3121
         },
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.3693
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.3614
+          "magnitude": 1.2147
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.526
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2571
+          "feature": "Weighted recent form",
+          "rawFeature": "home_last10_pts_weighted",
+          "direction": "favors_team2",
+          "magnitude": 0.4841
         }
       ],
       "teamStats": {
@@ -1362,34 +1362,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.5607
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3824
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2653
-        },
-        {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.1557
+          "magnitude": 0.4208
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1478
+          "magnitude": 0.4155
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.3054
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.2344
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team1",
+          "magnitude": 0.2257
         }
       ],
       "teamStats": {
@@ -1438,32 +1438,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.9136
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.4086
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3739
+          "magnitude": 2.3984
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.2736
+          "direction": "favors_team1",
+          "magnitude": 0.8027
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.7088
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team2",
-          "magnitude": 0.2484
+          "magnitude": 0.4988
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.4969
         }
       ],
       "teamStats": {
@@ -1510,34 +1510,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3835
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3824
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2653
-        },
-        {
           "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2287
+          "magnitude": 1.03
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1652
+          "magnitude": 0.6489
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.3264
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.2651
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team1",
+          "magnitude": 0.2257
         }
       ],
       "teamStats": {
@@ -1584,34 +1584,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.5607
+          "magnitude": 0.6017
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2785
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.2686
+          "magnitude": 0.5383
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.4812
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.2518
+          "magnitude": 0.4572
         }
       ],
       "teamStats": {
@@ -1661,31 +1661,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 1.2898
+          "magnitude": 1.5641
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
           "direction": "favors_team2",
-          "magnitude": 0.3919
+          "magnitude": 0.4865
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3824
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3638
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.3603
+          "magnitude": 0.4717
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team2",
+          "magnitude": 0.4213
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team2",
+          "magnitude": 0.2786
         }
       ],
       "teamStats": {
@@ -1732,34 +1732,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.439
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3835
-        },
-        {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2287
+          "magnitude": 0.4192
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.2049
+          "magnitude": 0.2612
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.2206
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "away_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.1559
         }
       ],
       "teamStats": {
@@ -1806,34 +1806,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6103
-        },
-        {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.5342
+          "magnitude": 2.8043
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 2.4143
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.5099
+          "magnitude": 1.5736
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3574
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5938
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3528
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -1880,34 +1880,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8846
-        },
-        {
           "feature": "Strength of schedule",
           "rawFeature": "away_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.537
+          "magnitude": 1.0289
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.408
+          "magnitude": 0.9217
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5819
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2263
+          "feature": "Elo rating",
+          "rawFeature": "away_elo_pre",
+          "direction": "favors_team2",
+          "magnitude": 0.4562
         }
       ],
       "teamStats": {
@@ -1954,34 +1954,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.5648
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6792
-        },
-        {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6103
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5342
+          "magnitude": 2.0664
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.386
+          "magnitude": 0.9953
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.8024
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.718
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.4961
         }
       ],
       "teamStats": {
@@ -2031,31 +2031,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.4287
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.4201
+          "magnitude": 1.3238
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.3574
+          "magnitude": 1.1134
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.2982
+          "magnitude": 0.9066
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5717
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -2104,32 +2104,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 1.1084
+          "direction": "favors_team2",
+          "magnitude": 2.9488
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.4306
-        },
-        {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.3557
-        },
-        {
-          "feature": "Defensive value",
-          "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3489
+          "magnitude": 1.1876
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
+          "direction": "favors_team2",
+          "magnitude": 0.8612
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.2769
+          "magnitude": 0.7005
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.6172
         }
       ],
       "teamStats": {
@@ -2178,32 +2178,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.5375
+          "direction": "favors_team2",
+          "magnitude": 5.6173
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8125
+          "direction": "favors_team1",
+          "magnitude": 1.481
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6132
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.5775
+          "direction": "favors_team1",
+          "magnitude": 1.4454
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.2877
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team2",
-          "magnitude": 0.4984
+          "magnitude": 0.6053
         }
       ],
       "teamStats": {
@@ -2250,34 +2250,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6558
+          "magnitude": 1.2027
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.7796
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4267
+          "magnitude": 0.6321
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3734
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.6068
         },
         {
           "feature": "Defensive value",
           "rawFeature": "home_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.3726
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3582
+          "magnitude": 0.5166
         }
       ],
       "teamStats": {
@@ -2324,34 +2324,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.2071
-        },
-        {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2035
+          "magnitude": 1.1337
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.1744
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1618
+          "magnitude": 0.5888
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.4587
+        },
+        {
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
+          "direction": "favors_team2",
+          "magnitude": 0.2805
         }
       ],
       "teamStats": {
@@ -2398,34 +2398,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.416
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.6692
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4267
+          "magnitude": 1.037
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.3734
+          "magnitude": 0.884
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.8258
         },
         {
           "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.3726
+          "magnitude": 0.7013
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team2",
+          "magnitude": 0.6665
         }
       ],
       "teamStats": {
@@ -2474,32 +2474,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4645
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3631
+          "direction": "favors_team2",
+          "magnitude": 1.2812
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.3028
+          "direction": "favors_team2",
+          "magnitude": 0.8738
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
-          "direction": "favors_team1",
-          "magnitude": 0.2305
+          "direction": "favors_team2",
+          "magnitude": 0.493
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 0.2145
+          "magnitude": 0.4652
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.4289
         }
       ],
       "teamStats": {
@@ -2549,31 +2549,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 1.416
+          "magnitude": 2.0594
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 0.6692
+          "magnitude": 0.9776
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3226
+          "magnitude": 0.8739
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2827
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.271
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.3958
         }
       ],
       "teamStats": {
@@ -2622,32 +2622,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.0388
+          "direction": "favors_team2",
+          "magnitude": 5.0781
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.786
+          "direction": "favors_team1",
+          "magnitude": 1.6252
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.5026
-        },
-        {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.4467
+          "magnitude": 1.2465
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.3493
+          "direction": "favors_team2",
+          "magnitude": 1.0173
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.9738
         }
       ],
       "teamStats": {
@@ -2694,34 +2694,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.3278
-        },
-        {
-          "feature": "Weighted goal difference",
-          "rawFeature": "home_last10_gd_weighted",
-          "direction": "favors_team1",
-          "magnitude": 0.2874
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2578
+          "magnitude": 1.0637
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.9899
         },
         {
           "feature": "Recent form (last 10)",
           "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.2499
+          "magnitude": 0.6068
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.5883
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -2768,34 +2768,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3611
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3509
+          "magnitude": 0.6011
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2619
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.4514
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.1688
+          "magnitude": 0.3752
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.3468
         }
       ],
       "teamStats": {
@@ -2842,34 +2842,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.3278
-        },
-        {
           "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.321
+          "magnitude": 1.607
         },
         {
-          "feature": "Weighted goal difference",
-          "rawFeature": "home_last10_gd_weighted",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.9964
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.2874
+          "magnitude": 0.5664
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.5141
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2578
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -2916,34 +2916,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3839
-        },
-        {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.4623
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 0.2305
+          "magnitude": 0.4133
+        },
+        {
+          "feature": "Recent form (last 5)",
+          "rawFeature": "home_last5_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.3422
         },
         {
           "feature": "Recent form (last 10)",
           "rawFeature": "home_last10_pts",
-          "direction": "favors_team1",
-          "magnitude": 0.2071
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.206
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2054
+          "direction": "favors_team2",
+          "magnitude": 0.3212
         }
       ],
       "teamStats": {
@@ -2993,31 +2993,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.321
+          "magnitude": 0.4949
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.1773
+          "magnitude": 0.493
         },
         {
           "feature": "Elo rating",
           "rawFeature": "away_elo_pre",
           "direction": "favors_team2",
-          "magnitude": 0.172
+          "magnitude": 0.3266
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.2389
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
           "direction": "favors_team2",
-          "magnitude": 0.1621
+          "magnitude": 0.2262
         }
       ],
       "teamStats": {
@@ -3066,32 +3066,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 1.2548
+          "direction": "favors_team2",
+          "magnitude": 3.2978
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.5194
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.3839
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3162
+          "magnitude": 1.3336
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3131
+          "direction": "favors_team1",
+          "magnitude": 0.9386
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.8899
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.8349
         }
       ],
       "teamStats": {
@@ -3141,31 +3141,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7144
+          "magnitude": 3.2614
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6859
+          "magnitude": 2.6481
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.6657
+          "magnitude": 2.0871
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.5197
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.7952
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.4624
+          "magnitude": 0.6099
         }
       ],
       "teamStats": {
@@ -3214,32 +3214,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.7436
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.369
+          "direction": "favors_team2",
+          "magnitude": 2.0468
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3181
+          "direction": "favors_team1",
+          "magnitude": 0.9469
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.2765
+          "direction": "favors_team2",
+          "magnitude": 0.7924
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2311
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.3658
         }
       ],
       "teamStats": {
@@ -3289,31 +3289,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7144
+          "magnitude": 3.4834
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6859
+          "magnitude": 2.6702
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.5765
+          "magnitude": 1.8458
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.5197
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.8433
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "feature": "Recent goal difference",
+          "rawFeature": "home_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.4624
+          "magnitude": 0.5919
         }
       ],
       "teamStats": {
@@ -3363,31 +3363,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.3429
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3027
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.2748
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 1.0943
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.2322
+          "magnitude": 0.9722
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.9342
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.6074
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -3434,34 +3434,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3219
-        },
-        {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "away_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.2223
+          "magnitude": 0.4344
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.378
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team2",
-          "magnitude": 0.1203
+          "magnitude": 0.297
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.118
+          "feature": "Recent goal difference",
+          "rawFeature": "home_last10_gd",
+          "direction": "favors_team1",
+          "magnitude": 0.2259
         }
       ],
       "teamStats": {
@@ -3510,32 +3510,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.3737
+          "direction": "favors_team2",
+          "magnitude": 7.5303
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9113
+          "direction": "favors_team1",
+          "magnitude": 2.1217
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8161
+          "direction": "favors_team1",
+          "magnitude": 2.0781
         },
         {
           "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.6257
+          "magnitude": 1.2653
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 1.0402
         }
       ],
       "teamStats": {
@@ -3582,34 +3582,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 1.2373
+          "magnitude": 1.2644
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7972
+          "magnitude": 1.1602
         },
         {
           "feature": "Defensive value",
           "rawFeature": "home_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.5178
+          "magnitude": 0.8563
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.4988
+          "magnitude": 0.8407
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.4717
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7153
         }
       ],
       "teamStats": {
@@ -3658,32 +3658,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 1.1977
+          "direction": "favors_team2",
+          "magnitude": 3.1904
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6403
+          "direction": "favors_team1",
+          "magnitude": 1.7295
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.5012
+          "direction": "favors_team2",
+          "magnitude": 1.0353
         },
         {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.2305
+          "magnitude": 0.6359
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Defense vs attack matchup",
+          "rawFeature": "def_vs_atk_matchup",
           "direction": "favors_team1",
-          "magnitude": 0.2283
+          "magnitude": 0.5304
         }
       ],
       "teamStats": {
@@ -3733,31 +3733,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7972
-        },
-        {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5178
+          "magnitude": 3.9558
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4717
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.4443
+          "magnitude": 1.9009
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.4376
+          "magnitude": 1.4286
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 1.3053
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.6883
         }
       ],
       "teamStats": {
@@ -3806,32 +3806,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.8764
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.7627
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "home_atk_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3561
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 0.327
+          "magnitude": 1.1055
         },
         {
           "feature": "Recent form (last 10)",
           "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7153
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.3257
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.451
+        },
+        {
+          "feature": "Weighted recent form",
+          "rawFeature": "home_last10_pts_weighted",
+          "direction": "favors_team2",
+          "magnitude": 0.4112
         }
       ],
       "teamStats": {
@@ -3880,32 +3880,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.7583
+          "direction": "favors_team2",
+          "magnitude": 8.0561
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 1.3668
+          "direction": "favors_team1",
+          "magnitude": 3.0154
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0859
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7627
+          "direction": "favors_team1",
+          "magnitude": 2.3487
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6312
+          "direction": "favors_team1",
+          "magnitude": 1.0223
+        },
+        {
+          "feature": "Defense vs attack matchup",
+          "rawFeature": "def_vs_atk_matchup",
+          "direction": "favors_team1",
+          "magnitude": 0.9584
         }
       ],
       "teamStats": {
@@ -3953,33 +3953,33 @@
       "shapFeatures": [
         {
           "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.3992
+          "magnitude": 1.4058
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.6975
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.2754
+          "magnitude": 0.6559
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.5246
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.2065
-        },
-        {
-          "feature": "Goal diff (last 6 months)",
-          "rawFeature": "home_last180d_gd_per_match",
-          "direction": "favors_team1",
-          "magnitude": 0.202
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4026,34 +4026,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6131
+          "magnitude": 1.2941
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.4846
+          "magnitude": 1.228
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4497
+          "magnitude": 0.7995
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.4137
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.3552
+          "magnitude": 0.7287
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4103,31 +4103,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.421
-        },
-        {
-          "feature": "Goal diff (last 6 months)",
-          "rawFeature": "home_last180d_gd_per_match",
-          "direction": "favors_team1",
-          "magnitude": 0.3075
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.2686
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 1.0698
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "away_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.2565
+          "magnitude": 0.9219
+        },
+        {
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
+          "direction": "favors_team1",
+          "magnitude": 0.5801
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5163
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4174,34 +4174,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6418
-        },
-        {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.4846
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4497
+          "magnitude": 1.3673
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4137
+          "magnitude": 1.2135
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.4067
+          "magnitude": 0.9681
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.7504
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7153
         }
       ],
       "teamStats": {
@@ -4250,32 +4250,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4342
+          "direction": "favors_team2",
+          "magnitude": 1.3628
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3375
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.2687
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2386
+          "magnitude": 0.7168
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.2305
+          "magnitude": 0.4871
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.4137
         }
       ],
       "teamStats": {
@@ -4324,32 +4324,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4546
+          "direction": "favors_team2",
+          "magnitude": 0.7637
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3739
+          "direction": "favors_team2",
+          "magnitude": 0.6071
         },
         {
           "feature": "Recent form (last 10)",
           "rawFeature": "home_last10_pts",
-          "direction": "favors_team2",
-          "magnitude": 0.2665
+          "direction": "favors_team1",
+          "magnitude": 0.6061
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.2523
+          "direction": "favors_team1",
+          "magnitude": 0.5638
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.2516
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.5568
         }
       ],
       "teamStats": {
@@ -4398,32 +4398,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.1455
+          "direction": "favors_team2",
+          "magnitude": 5.49
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6149
+          "direction": "favors_team1",
+          "magnitude": 1.653
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.5554
+          "direction": "favors_team1",
+          "magnitude": 1.5468
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.4098
+          "direction": "favors_team2",
+          "magnitude": 1.16
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3819
+          "direction": "favors_team1",
+          "magnitude": 0.7635
         }
       ],
       "teamStats": {
@@ -4473,31 +4473,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4893
+          "magnitude": 1.6759
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4591
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3744
+          "magnitude": 1.5673
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.3723
+          "magnitude": 1.2135
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.3529
+          "magnitude": 0.47
         }
       ],
       "teamStats": {
@@ -4546,32 +4546,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6097
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.4776
+          "direction": "favors_team2",
+          "magnitude": 1.668
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.2654
-        },
-        {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
           "direction": "favors_team1",
-          "magnitude": 0.2465
+          "magnitude": 0.7435
         },
         {
           "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2323
+          "rawFeature": "elo_diff",
+          "direction": "favors_team2",
+          "magnitude": 0.5539
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.5501
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4621,31 +4621,31 @@
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4893
+          "magnitude": 2.4073
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4591
+          "magnitude": 1.8557
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3744
+          "magnitude": 0.8005
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3529
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
           "direction": "favors_team2",
-          "magnitude": 0.2805
+          "magnitude": 0.5219
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4692,34 +4692,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3585
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.351
-        },
-        {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.3375
+          "magnitude": 1.1063
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.6595
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.1952
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.3608
+        },
+        {
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
+          "direction": "favors_team1",
+          "magnitude": 0.187
         }
       ],
       "teamStats": {
@@ -4768,32 +4768,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.3291
+          "direction": "favors_team2",
+          "magnitude": 5.1295
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7453
+          "direction": "favors_team1",
+          "magnitude": 1.6425
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6147
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.493
+          "direction": "favors_team1",
+          "magnitude": 1.3587
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.0387
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.4814
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -4843,31 +4843,31 @@
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.493
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.233
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.2163
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.2094
+          "magnitude": 0.4687
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team2",
-          "magnitude": 0.1838
+          "magnitude": 0.44
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.4019
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.2851
         }
       ],
       "teamStats": {
@@ -4914,34 +4914,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8747
-        },
-        {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.8245
+          "magnitude": 2.7925
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7678
-        },
-        {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4624
+          "magnitude": 1.6588
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4577
+          "magnitude": 1.2882
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7557
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "home_atk_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5363
         }
       ],
       "teamStats": {
@@ -4991,31 +4991,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.3525
+          "magnitude": 0.939
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team2",
-          "magnitude": 0.3265
+          "magnitude": 0.8702
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2625
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
-          "direction": "favors_team2",
-          "magnitude": 0.1475
+          "magnitude": 0.493
         },
         {
           "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "rawFeature": "home_atk_value",
           "direction": "favors_team2",
-          "magnitude": 0.1182
+          "magnitude": 0.4331
+        },
+        {
+          "feature": "FIFA ranking",
+          "rawFeature": "away_fifa_rank",
+          "direction": "favors_team2",
+          "magnitude": 0.1985
         }
       ],
       "teamStats": {
@@ -5065,31 +5065,31 @@
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.8245
+          "magnitude": 3.107
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.7678
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6197
+          "magnitude": 2.0944
         },
         {
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.5182
+          "magnitude": 1.6178
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.4921
+          "magnitude": 0.6344
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "home_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.4932
         }
       ],
       "teamStats": {
@@ -5138,32 +5138,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6196
+          "direction": "favors_team2",
+          "magnitude": 1.7668
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.4137
+          "direction": "favors_team1",
+          "magnitude": 0.8374
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3921
+          "direction": "favors_team2",
+          "magnitude": 0.764
         },
         {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
-          "direction": "favors_team1",
-          "magnitude": 0.2305
+          "direction": "favors_team2",
+          "magnitude": 0.493
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "away_elo_pre",
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.2129
+          "magnitude": 0.484
         }
       ],
       "teamStats": {
@@ -5212,32 +5212,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.6218
+          "direction": "favors_team2",
+          "magnitude": 9.0076
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0926
+          "direction": "favors_team1",
+          "magnitude": 2.7763
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
+          "direction": "favors_team1",
+          "magnitude": 2.0124
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7314
+          "direction": "favors_team1",
+          "magnitude": 1.96
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3921
+          "direction": "favors_team2",
+          "magnitude": 0.8657
         }
       ],
       "teamStats": {
@@ -5284,34 +5284,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6197
+          "feature": "Elo rating",
+          "rawFeature": "elo_diff",
+          "direction": "favors_team1",
+          "magnitude": 1.2871
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 0.4921
+          "magnitude": 0.8038
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.4107
+          "magnitude": 0.6344
         },
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.3574
+          "magnitude": 0.562
         },
         {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.32
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -6096,34 +6096,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.3549
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.272
-        },
-        {
           "feature": "Neutral venue",
           "rawFeature": "neutral",
-          "direction": "favors_team1",
-          "magnitude": 0.2305
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
           "direction": "favors_team2",
-          "magnitude": 0.2105
+          "magnitude": 0.493
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
+          "direction": "favors_team2",
+          "magnitude": 0.4893
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.1941
+          "magnitude": 0.375
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.2377
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.2151
         }
       ],
       "teamStats": {
@@ -6173,31 +6173,31 @@
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6103
+          "magnitude": 1.9474
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.5342
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3854
+          "magnitude": 1.5353
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3528
+          "magnitude": 0.7845
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
           "direction": "favors_team1",
-          "magnitude": 0.2889
+          "magnitude": 0.5003
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -6244,34 +6244,34 @@
       "confidence": "low",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.3196
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4267
-        },
-        {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4254
+          "magnitude": 1.1457
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.3734
+          "magnitude": 1.0031
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.3726
+          "magnitude": 0.6876
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.5283
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team2",
+          "magnitude": 0.5019
         }
       ],
       "teamStats": {
@@ -6319,33 +6319,33 @@
       "shapFeatures": [
         {
           "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6558
-        },
-        {
-          "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.5903
+          "magnitude": 1.3039
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3941
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3718
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.3499
+          "magnitude": 1.0025
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "home_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.4767
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.3735
         }
       ],
       "teamStats": {
@@ -6392,34 +6392,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.416
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Elo rating",
+          "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.7972
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6692
-        },
-        {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5178
+          "magnitude": 1.4309
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4717
+          "magnitude": 1.2471
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.855
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "home_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.8322
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.6075
         }
       ],
       "teamStats": {
@@ -6468,32 +6468,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.8764
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.7029
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3162
-        },
-        {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.2829
+          "magnitude": 1.1845
         },
         {
           "feature": "Recent form (last 10)",
           "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.5515
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.5347
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.2369
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.4784
         }
       ],
       "teamStats": {
@@ -6543,31 +6543,31 @@
           "feature": "Elo rating",
           "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.3698
+          "magnitude": 1.1771
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.3675
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.3208
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team1",
-          "magnitude": 0.1961
+          "magnitude": 0.8275
         },
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.1919
+          "magnitude": 0.4765
+        },
+        {
+          "feature": "Weighted recent form",
+          "rawFeature": "home_last10_pts_weighted",
+          "direction": "favors_team1",
+          "magnitude": 0.2692
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.2366
         }
       ],
       "teamStats": {
@@ -6614,34 +6614,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 1.6909
+          "magnitude": 2.6428
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
           "direction": "favors_team1",
-          "magnitude": 1.01
+          "magnitude": 1.0688
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8245
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.7678
+          "magnitude": 0.7591
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7557
         },
         {
           "feature": "Defensive value",
           "rawFeature": "home_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4624
+          "magnitude": 0.7475
         }
       ],
       "teamStats": {
@@ -6688,34 +6688,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Elo rating",
-          "rawFeature": "elo_diff",
-          "direction": "favors_team1",
-          "magnitude": 0.3035
-        },
-        {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.2785
-        },
-        {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.2686
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 1.0392
         },
         {
           "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
+          "rawFeature": "elo_diff",
           "direction": "favors_team1",
-          "magnitude": 0.2518
+          "magnitude": 0.9598
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
+          "direction": "favors_team2",
+          "magnitude": 0.809
+        },
+        {
+          "feature": "Squad market value",
+          "rawFeature": "home_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 0.6436
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.4976
         }
       ],
       "teamStats": {
@@ -6762,34 +6762,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.33
+          "magnitude": 0.7422
         },
         {
-          "feature": "Weighted recent form",
-          "rawFeature": "home_last10_pts_weighted",
-          "direction": "favors_team2",
-          "magnitude": 0.3278
-        },
-        {
-          "feature": "Weighted goal difference",
-          "rawFeature": "home_last10_gd_weighted",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.2874
-        },
-        {
-          "feature": "Neutral venue",
-          "rawFeature": "neutral",
-          "direction": "favors_team2",
-          "magnitude": 0.2625
+          "magnitude": 0.6068
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.2578
+          "magnitude": 0.4949
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.4771
         }
       ],
       "teamStats": {
@@ -6838,32 +6838,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6196
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.493
+          "magnitude": 1.0065
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.4137
+          "direction": "favors_team1",
+          "magnitude": 0.9439
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.9295
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.3921
+          "direction": "favors_team2",
+          "magnitude": 0.5784
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
           "direction": "favors_team2",
-          "magnitude": 0.3691
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -6910,34 +6910,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.7144
-        },
-        {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6859
+          "magnitude": 2.219
         },
         {
           "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6418
+          "rawFeature": "home_squad_value",
+          "direction": "favors_team1",
+          "magnitude": 1.8372
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.5197
+          "magnitude": 1.5279
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 1.0577
         },
         {
           "feature": "Defensive value",
-          "rawFeature": "home_def_value",
+          "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4624
+          "magnitude": 0.9482
         }
       ],
       "teamStats": {
@@ -6986,32 +6986,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.6265
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.5573
+          "direction": "favors_team2",
+          "magnitude": 1.088
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3687
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3201
+          "direction": "favors_team1",
+          "magnitude": 0.8164
         },
         {
           "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
+          "rawFeature": "away_last10_avg_opp_elo",
           "direction": "favors_team2",
-          "magnitude": 0.3012
+          "magnitude": 0.574
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.4983
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -7058,34 +7058,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0499
-        },
-        {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.4846
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4497
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 0.423
+          "magnitude": 0.9153
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4137
+          "magnitude": 0.7873
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.6344
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.5571
+        },
+        {
+          "feature": "Goal diff (last 6 months)",
+          "rawFeature": "home_last180d_gd_per_match",
+          "direction": "favors_team1",
+          "magnitude": 0.5321
         }
       ],
       "teamStats": {
@@ -7132,34 +7132,34 @@
       "confidence": "high",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.5607
-        },
-        {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.4893
+          "magnitude": 1.7908
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.4591
+          "magnitude": 1.5654
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3744
+          "magnitude": 0.8046
         },
         {
-          "feature": "Defensive value",
-          "rawFeature": "home_def_value",
-          "direction": "favors_team1",
-          "magnitude": 0.3529
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.5434
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -7206,34 +7206,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team1",
-          "magnitude": 0.3824
-        },
-        {
-          "feature": "Elo rating",
-          "rawFeature": "home_elo_pre",
-          "direction": "favors_team1",
-          "magnitude": 0.2653
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team1",
-          "magnitude": 0.2071
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "away_last10_avg_opp_elo",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.1985
+          "magnitude": 0.6919
         },
         {
           "feature": "Squad market value",
           "rawFeature": "home_squad_value",
           "direction": "favors_team1",
-          "magnitude": 0.1557
+          "magnitude": 0.6443
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.5038
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.4165
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.2397
         }
       ],
       "teamStats": {
@@ -7282,32 +7282,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.7583
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 1.6595
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 1.6443
+          "magnitude": 6.8705
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 1.3668
+          "direction": "favors_team1",
+          "magnitude": 3.131
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 2.5478
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 1.0859
+          "magnitude": 0.784
+        },
+        {
+          "feature": "Defense vs attack matchup",
+          "rawFeature": "def_vs_atk_matchup",
+          "direction": "favors_team1",
+          "magnitude": 0.7456
         }
       ],
       "teamStats": {
@@ -7356,32 +7356,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.0388
+          "direction": "favors_team2",
+          "magnitude": 4.7971
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.786
+          "direction": "favors_team1",
+          "magnitude": 1.6877
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.5026
+          "direction": "favors_team1",
+          "magnitude": 1.2405
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.4467
+          "direction": "favors_team2",
+          "magnitude": 0.9466
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.3459
+          "direction": "favors_team1",
+          "magnitude": 0.8446
         }
       ],
       "teamStats": {
@@ -7428,34 +7428,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
+          "feature": "Midfield value",
+          "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 1.2373
+          "magnitude": 0.7011
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.5903
-        },
-        {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
-          "direction": "favors_team1",
-          "magnitude": 0.4988
+          "magnitude": 0.6855
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.3941
+          "magnitude": 0.5453
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.3718
+          "magnitude": 0.509
+        },
+        {
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         }
       ],
       "teamStats": {
@@ -7504,32 +7504,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.6218
+          "direction": "favors_team2",
+          "magnitude": 8.5864
         },
         {
           "feature": "Midfield value",
           "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0926
+          "direction": "favors_team1",
+          "magnitude": 2.4232
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
+          "direction": "favors_team1",
+          "magnitude": 2.0624
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7314
+          "direction": "favors_team1",
+          "magnitude": 1.8511
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.5052
+          "direction": "favors_team1",
+          "magnitude": 0.9394
         }
       ],
       "teamStats": {
@@ -7578,32 +7578,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.3737
+          "direction": "favors_team2",
+          "magnitude": 7.64
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9113
+          "direction": "favors_team1",
+          "magnitude": 2.2198
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
-          "direction": "favors_team2",
-          "magnitude": 0.8161
+          "direction": "favors_team1",
+          "magnitude": 2.1031
         },
         {
-          "feature": "Recent goal difference",
-          "rawFeature": "away_last10_gd",
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.4285
+          "magnitude": 1.8566
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.8239
         }
       ],
       "teamStats": {
@@ -7652,32 +7652,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 1.2548
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 0.5725
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 0.5341
+          "magnitude": 2.2695
         },
         {
           "feature": "Recent goal difference",
           "rawFeature": "away_last10_gd",
-          "direction": "favors_team1",
-          "magnitude": 0.5194
+          "direction": "favors_team2",
+          "magnitude": 0.9479
         },
         {
           "feature": "Strength of schedule",
           "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.383
+          "direction": "favors_team1",
+          "magnitude": 0.8332
+        },
+        {
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
+          "direction": "favors_team1",
+          "magnitude": 0.6796
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.6267
         }
       ],
       "teamStats": {
@@ -7727,31 +7727,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team1",
-          "magnitude": 3.0291
+          "magnitude": 4.5352
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
           "direction": "favors_team2",
-          "magnitude": 0.9699
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7386
+          "magnitude": 1.431
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team2",
-          "magnitude": 0.4226
+          "magnitude": 0.8897
         },
         {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
+          "feature": "Elo rating",
+          "rawFeature": "elo_diff",
+          "direction": "favors_team1",
+          "magnitude": 0.82
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.3824
+          "magnitude": 0.7479
         }
       ],
       "teamStats": {
@@ -7800,32 +7800,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.3291
+          "direction": "favors_team2",
+          "magnitude": 5.1146
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7453
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6147
-        },
-        {
-          "feature": "Strength of schedule",
-          "rawFeature": "home_last10_avg_opp_elo",
-          "direction": "favors_team2",
-          "magnitude": 0.5775
+          "direction": "favors_team1",
+          "magnitude": 1.7238
         },
         {
           "feature": "Attacking value",
           "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.244
+        },
+        {
+          "feature": "Midfield value",
+          "rawFeature": "away_mid_value",
+          "direction": "favors_team1",
+          "magnitude": 1.0202
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team2",
-          "magnitude": 0.4814
+          "magnitude": 0.6584
         }
       ],
       "teamStats": {
@@ -7872,34 +7872,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 2.8784
-        },
-        {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.8697
+          "magnitude": 2.1223
         },
         {
           "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.7972
+          "rawFeature": "away_squad_value",
+          "direction": "favors_team2",
+          "magnitude": 1.6434
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.6685
+          "magnitude": 0.7422
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.724
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
           "direction": "favors_team1",
-          "magnitude": 0.5455
+          "magnitude": 0.5869
         }
       ],
       "teamStats": {
@@ -7946,34 +7946,34 @@
       "confidence": "moderate",
       "shapFeatures": [
         {
-          "feature": "Squad market value",
-          "rawFeature": "away_squad_value",
-          "direction": "favors_team2",
-          "magnitude": 1.7715
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.7144
-        },
-        {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.6859
+          "magnitude": 1.8043
         },
         {
           "feature": "Elo rating",
           "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.5197
+          "magnitude": 1.3092
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Defensive value",
+          "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.4988
+          "magnitude": 1.0339
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.8269
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
+          "direction": "favors_team2",
+          "magnitude": 0.6905
         }
       ],
       "teamStats": {
@@ -8022,32 +8022,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.6218
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 1.8339
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0926
+          "magnitude": 6.3109
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
+          "direction": "favors_team1",
+          "magnitude": 2.3424
         },
         {
           "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
+          "rawFeature": "away_mid_value",
           "direction": "favors_team1",
-          "magnitude": 0.86
+          "magnitude": 1.3665
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.1052
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 1.0026
         }
       ],
       "teamStats": {
@@ -8096,32 +8096,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 2.3291
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 1.3971
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 1.1146
+          "magnitude": 3.7706
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.7453
+          "direction": "favors_team1",
+          "magnitude": 1.7295
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 0.6147
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 0.7542
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7018
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.627
         }
       ],
       "teamStats": {
@@ -8170,32 +8170,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.3737
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 2.4766
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 1.2708
+          "magnitude": 4.8628
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
+          "direction": "favors_team1",
+          "magnitude": 2.5131
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.0045
+        },
+        {
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
+          "direction": "favors_team1",
+          "magnitude": 0.7422
+        },
+        {
+          "feature": "Recent goal difference",
+          "rawFeature": "away_last10_gd",
           "direction": "favors_team2",
-          "magnitude": 0.9113
+          "magnitude": 0.6914
         }
       ],
       "teamStats": {
@@ -8245,31 +8245,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 3.2883
+          "magnitude": 2.4643
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.8247
+          "magnitude": 1.9868
         },
         {
           "feature": "Midfield value",
           "rawFeature": "home_mid_value",
           "direction": "favors_team2",
-          "magnitude": 0.8245
+          "magnitude": 1.6138
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 0.8175
+          "feature": "Strength of schedule",
+          "rawFeature": "away_last10_avg_opp_elo",
+          "direction": "favors_team2",
+          "magnitude": 0.7534
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.7678
+          "magnitude": 0.7018
         }
       ],
       "teamStats": {
@@ -8319,31 +8319,31 @@
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
           "direction": "favors_team2",
-          "magnitude": 3.2883
+          "magnitude": 2.3435
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
           "direction": "favors_team1",
-          "magnitude": 0.8247
+          "magnitude": 2.0367
         },
         {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
+          "feature": "Recent form (last 10)",
+          "rawFeature": "home_last10_pts",
           "direction": "favors_team1",
-          "magnitude": 0.8175
+          "magnitude": 0.7018
         },
         {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 0.7972
+          "feature": "Neutral venue",
+          "rawFeature": "neutral",
+          "direction": "favors_team2",
+          "magnitude": 0.493
         },
         {
-          "feature": "Attacking value",
-          "rawFeature": "away_atk_value",
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
           "direction": "favors_team1",
-          "magnitude": 0.7594
+          "magnitude": 0.4426
         }
       ],
       "teamStats": {
@@ -8392,32 +8392,32 @@
         {
           "feature": "Squad market value",
           "rawFeature": "away_squad_value",
-          "direction": "favors_team1",
-          "magnitude": 3.6218
-        },
-        {
-          "feature": "Squad market value",
-          "rawFeature": "home_squad_value",
           "direction": "favors_team2",
-          "magnitude": 2.2192
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "home_mid_value",
-          "direction": "favors_team1",
-          "magnitude": 1.848
-        },
-        {
-          "feature": "Midfield value",
-          "rawFeature": "away_mid_value",
-          "direction": "favors_team2",
-          "magnitude": 1.0926
+          "magnitude": 5.8015
         },
         {
           "feature": "Defensive value",
           "rawFeature": "away_def_value",
-          "direction": "favors_team2",
-          "magnitude": 0.9715
+          "direction": "favors_team1",
+          "magnitude": 2.4632
+        },
+        {
+          "feature": "Attacking value",
+          "rawFeature": "away_atk_value",
+          "direction": "favors_team1",
+          "magnitude": 1.2345
+        },
+        {
+          "feature": "Strength of schedule",
+          "rawFeature": "home_last10_avg_opp_elo",
+          "direction": "favors_team1",
+          "magnitude": 0.7219
+        },
+        {
+          "feature": "Elo rating",
+          "rawFeature": "home_elo_pre",
+          "direction": "favors_team1",
+          "magnitude": 0.7159
         }
       ],
       "teamStats": {
