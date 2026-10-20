@@ -200,7 +200,7 @@ export default function App() {
           {/* 2026 sub-tabs */}
           {route.view === 'home' && tab === '2026' && (
             <div className="flex mt-px">
-              {([['matches', 'Upcoming Matches'], ['bracket', 'Predicted Bracket'], ['rankings', 'FIFA Rankings']] as [SubTab2026, string][]).map(([id, label]) => (
+              {([['matches', 'Group Stage Matches'], ['bracket', 'Predicted Bracket'], ['rankings', 'FIFA Rankings']] as [SubTab2026, string][]).map(([id, label]) => (
                 <button
                   key={id}
                   onClick={() => setSubTab2026(id)}

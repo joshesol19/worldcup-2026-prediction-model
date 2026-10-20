@@ -49,7 +49,7 @@ export function Tab2026({ data, fixtures: _fixtures, loading, onMatchClick }: Pr
   };
 
   const upcoming = data.matches
-    .filter(m => m.date >= TODAY)
+    .filter(m => m.stage === 'group' && m.date >= TODAY)
     .sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
 
   const displayMatches = showAll ? upcoming : upcoming.slice(0, 5);
@@ -116,11 +116,11 @@ export function Tab2026({ data, fixtures: _fixtures, loading, onMatchClick }: Pr
         )}
       </section>
 
-      {/* Upcoming matches */}
+      {/* Group stage matches */}
       <section className="space-y-4">
         <div className="flex items-baseline justify-between gap-3">
           <div>
-            <h2 className="text-base font-bold text-slate-800">Upcoming Matches</h2>
+            <h2 className="text-base font-bold text-slate-800">Group Stage Matches</h2>
             <p className="text-sm text-slate-500 mt-0.5">
               {upcoming.length} matches remaining · {predictedCount} with predictions
             </p>
@@ -129,7 +129,7 @@ export function Tab2026({ data, fixtures: _fixtures, loading, onMatchClick }: Pr
 
         <div className="space-y-2">
           {displayMatches.length === 0 ? (
-            <div className="text-center py-12 text-slate-400">No upcoming matches found.</div>
+            <div className="text-center py-12 text-slate-400">No group stage matches found.</div>
           ) : (
             displayMatches.map(m => (
               <UpcomingMatchRow
@@ -147,7 +147,7 @@ export function Tab2026({ data, fixtures: _fixtures, loading, onMatchClick }: Pr
               onClick={() => setShowAll(v => !v)}
               className="inline-flex items-center gap-2 border border-slate-300 hover:border-slate-400 bg-white text-slate-700 text-sm font-medium px-5 py-2.5 rounded-xl transition-colors"
             >
-              {showAll ? 'Show fewer matches ↑' : `Show all ${upcoming.length} upcoming matches ↓`}
+              {showAll ? 'Show fewer matches ↑' : `Show all ${upcoming.length} group stage matches ↓`}
             </button>
           </div>
         )}
